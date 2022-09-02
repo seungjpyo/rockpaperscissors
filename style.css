@@ -1,10 +1,10 @@
 body {
     margin: 0;
-    background-color: hsl(222, 20%,50%);
+    background-color: hsl(222, 20%, 50%);
 }
 
 .scoreboard {
-    margin: 10rem auto 5rem;
+    margin: 7rem auto 5rem;
     width: 60%;
     max-width: 600px;
     border-style: solid;
@@ -25,4 +25,19 @@ body {
 button {
     font-size: 2rem;
     padding: 2rem;
+}
+
+.textLog {
+    margin: 5rem auto;
+    width: 60%;
+    max-width: 600px;
+    height: 400px;
+    background: hsl(0, 100%, 90%);
+    border-style: solid;
+    border-color: coral;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    white-space: pre;
+    text-overflow: clip;
 }

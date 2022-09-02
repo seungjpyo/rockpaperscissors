@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-color: hsl(222, 20%,50%);
+}
+
+.scoreboard {
+    margin: 10rem auto 5rem;
+    width: 60%;
+    max-width: 600px;
+    border-style: solid;
+    border-color: coral;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    background-color: hsl(0, 100%, 10%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+button {
+    font-size: 2rem;
+    padding: 2rem;
+}
